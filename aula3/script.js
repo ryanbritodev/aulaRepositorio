@@ -8,7 +8,7 @@ function somar() {
     var soma = numero1 + numero2;
 
     // Saída
-    resultado.innerText = `O resultado da soma é ${soma}.`;
+    resultado.innerText = `O resultado da soma é ${soma}`;
 }
 
 function subtracao() {
@@ -21,7 +21,7 @@ function subtracao() {
     var subtracao = numero1 - numero2;
 
     // Saída
-    resultado.innerText = `O resultado da subtração é ${subtracao}.`;
+    resultado.innerText = `O resultado da subtração é ${subtracao}`;
 }
 
 function divisao() {
@@ -31,7 +31,7 @@ function divisao() {
     var resultadoElement = document.getElementById("resultado");
 
     if (numero2 == 0) {
-        resultado.innerText = ("Erro (divisão por zero).");
+        resultado.innerText = ("Erro (divisão por zero)");
     }
 
     // Processamento
@@ -39,7 +39,7 @@ function divisao() {
     var divisao = numero1 / numero2;
 
     // Saída
-    resultado.innerText = `O resultado da divisão é ${divisao}.`;
+    resultado.innerText = `O resultado da divisão é ${divisao}`;
     }
 
 }
@@ -54,5 +54,5 @@ function multiplicacao() {
     var multiplicacao = numero1 * numero2;
 
     // Saída
-    resultado.innerText = `O resultado da multiplicação é ${multiplicacao}.`;
+    resultado.innerText = `O resultado da multiplicação é ${multiplicacao}`;
 }
