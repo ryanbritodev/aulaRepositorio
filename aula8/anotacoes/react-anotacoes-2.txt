@@ -1,0 +1,37 @@
+NODEJS E JSX
+O que é o NodeJS?
+Javascript pro backend
+É um intrepratador de Javascript no servidor, ou em outros ambientes
+Não depende do navegador
+Aplicações fullstack que se comunicam com o servidor
+Atualmente todos os navegadores intrepretam o Javascript
+Engine V8 e a Libuv possibilita essa interpretação
+Meio campo entre banco de dados/servidor e o navegador
+Pra que é utilizado?
+ChatBots
+Memórias SPAs (Single Page Application)
+Quem usa?
+Netflix, Uber, Ebay
+https://www.npmjs.com/
+React Router Dom
+NPM (Node Package Manager)
+Gerenciador de serviços/pacotes externos
+Hub de Bibliotecas
+Atualizações
+Outros Gerenciadores
+Yarn, NPM, PNPM
+Yarn tem pontos positivos como segurança e features diferentes
+Como saber se está instalado o Node.js na minha máquina?
+node -v
+NPM atende ao mesmo comando
+npm -v
+ctrl + c = Mata localhost do React
+0.0.0
+Versão e Bugs
+Dependências podem ser encontradas no site do npm
+Como o React interpreta o JSX?
+Simple React Snippets
+Extensão VS Code de atalhos do React
+O React cria um elemento por vez, dando o return de somente um elemento
+Podemos fazer uma div que contenha todos os elementos
+Componentes - reutilização
