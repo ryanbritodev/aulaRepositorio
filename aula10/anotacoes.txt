@@ -1,0 +1,30 @@
+Existem várias formas de organizar o CSS dentro do React
+Vanilla
+CSS Inline
+CSS Modules
+Styled Components
+Tailwind CSS - Biblioteca
+
+Vanilla CSS
+Prós
+CSS separado do JSX
+Igual ao que estamos acostumados
+Contras
+Você precisa entender bem de CSS
+CSS Modules
+Parecido com o Vanilla, mas respeitando a divisão
+Muitos arquivos CSS pequenos
+Styled Components
+https://styled-components.com/
+É fácil e rápido, porém tudo vira arquivo .JSX
+Tailwind
+Classes utilitárias
+90% do tempo vamos usar
+Docs
+Framework Guides
+Vite
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+Copiar no arquivo Tailwind.config
+Colocar três linhas no CSS
+Tailwind CSS IntelliSense - Extensão
